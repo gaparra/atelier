@@ -568,10 +568,10 @@
     </dependency>
 
 	<dependency>
-		<groupId>org.junit.jupiter</groupId>
-		<artifactId>junit-jupiter-engine</artifactId>
-		<version>5.7.0</version>
-		<scope>test</scope>
+	  <groupId>org.junit.jupiter</groupId>
+	  <artifactId>junit-jupiter-engine</artifactId>
+	  <version>5.7.0</version>
+	  <scope>test</scope>
 	</dependency>
   </dependencies>
 
@@ -651,10 +651,10 @@
    <defaultGoal>clean package apache-rat:check checkstyle:check japicmp:cmp spotbugs:check javadoc:javadoc</defaultGoal>
    <pluginManagement>
       <plugins>
-      <plugin>
-			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-surefire-plugin</artifactId>
-			<version>2.22.0</version>
+        <plugin>
+	      <groupId>org.apache.maven.plugins</groupId>
+		  <artifactId>maven-surefire-plugin</artifactId>
+		  <version>2.22.0</version>
 		</plugin>
         <plugin>
           <groupId>org.apache.rat</groupId>
@@ -946,7 +946,7 @@
         <jdk>[13,)</jdk>
       </activation>
       <properties>
-        <!-- jacoco does not work with java 13 yet -->
+        <!-- jacoco does not work with java 13 yet rip-->
         <jacoco.skip>true</jacoco.skip>
       </properties>
     </profile>

@@ -666,6 +666,8 @@
               <exclude>src/site/resources/download_lang.cgi</exclude>
               <exclude>src/site/resources/release-notes/RELEASE-NOTES-*.txt</exclude>
               <exclude>src/test/resources/lang-708-input.txt</exclude>
+              <exclude>src/test/resources/lang-708-input.txt</exclude>
+              <exclude>.scannerwork/**</exclude>
             </excludes>
           </configuration>
         </plugin>

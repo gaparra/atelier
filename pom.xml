@@ -946,7 +946,7 @@
         <jdk>[13,)</jdk>
       </activation>
       <properties>
-        <!-- jacoco does not work with java 13 yet-->
+        <!-- jacoco does not work with java 13 yet rip-->
         <jacoco.skip>true</jacoco.skip>
       </properties>
     </profile>
